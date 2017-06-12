@@ -1,0 +1,175 @@
+.black-bg {
+  background-color: black !important;
+  border-color: black;
+}
+
+.brand-name {
+  color: #FC4C20;
+}
+
+.btn-custom {
+  background-color: rgba(51, 92, 129, 1);
+  border-color: #ccc;
+  color: #ffffff;
+}
+
+a.btn-custom,
+a:hover.btn-custom,
+a:focus.btn-custom {
+  color: #ffffff;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.comparison-header {
+  padding: 20px;
+}
+
+.details p {
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.details p:nth-child(2n+1) {
+  background-color: rgba(94, 177, 191, 1);
+  color: #ffffff;
+}
+
+.fa-circle-thin, .fa-envelope, .fa-phone, .fa-comment {
+  color: #ffffff;
+}
+
+.fa-square, .fa-square-o, .fa-fighter-jet, .fa-rocket, .fa-plane, .fa-paper-plane {
+  color: rgba(51, 92, 129, 1);
+}
+
+.featured {
+  border: 1px solid silver;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.featured > .details > p {
+  font-weight: bold;
+}
+
+.fieldset-form {
+  border: 1px solid rgba(51, 51, 51, 1);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.green {
+  color: green !important;
+}
+
+.header-card {
+  background-color: rgba(51, 92, 129, 1) !important;
+  color: #ffffff;
+}
+
+.hr-rule {
+  border-top: 3px solid rgba(51, 92, 129, 1);
+  border-bottom: 0px;
+  //padding-bottom: 25px;
+}
+
+.img-card-header {
+  height: 125px;
+}
+
+.img-small {
+  width: 125px;
+}
+
+.inline-div {
+  display: inline-block !important;
+}
+
+.legend-form {
+  width: inherit;
+  padding: 0px 10px;
+}
+
+.li-spaced li {
+  padding: 5px 0px;
+}
+
+.no-pad {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.semi-footer {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+  background-color: rgba(51, 92, 129, 1);
+  padding: 10px;
+}
+
+.semi-footer a,
+.semi-footer a:hover,
+.semi-footer a:focus {
+  color: #ffffff;
+}
+
+.small-flag {
+  width: 24px;
+  height: 24px;
+}
+
+.white-bg {
+  background-color: white !important;
+  border-color: white;
+}
+
+/** Divs **/
+#dedicated-plan {
+  background: #cc2936; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#cc2936, #df626c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#cc2936, #df626c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cc2936, #df626c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cc2936, #df626c);
+}
+
+#gold-plan {
+  background: #fccf4b; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#fccf4b, #fdeaaf); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fccf4b, #fdeaaf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fccf4b, #fdeaaf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fccf4b, #fdeaaf);
+}
+
+#platinum-plan {
+  background: #c1beba; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#c1beba, #e5e4e2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#c1beba, #e5e4e2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#c1beba, #e5e4e2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#c1beba, #e5e4e2);
+}
+
+#silver-plan {
+  background: #a7a7a7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a7a7a7, #e6e6e6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a7a7a7, #e6e6e6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a7a7a7, #e6e6e6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a7a7a7, #e6e6e6);
+}
+
+#bronze-plan {
+  background: #cd7f32; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#cd7f32, #d7995b); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#cd7f32, #d7995b); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cd7f32, #d7995b); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cd7f32, #d7995b);
+}
