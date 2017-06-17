@@ -1,7 +1,7 @@
 /**
  * Created by jasonk on 5/6/17.
  */
-import { Route } from '@angular/router';
+import { Routes } from '@angular/router';
 
 import { HomePage } from '../pages/home/home.component';
 import { MultiaccountPage } from '../pages/multiaccount/multiaccount.component';
@@ -17,7 +17,7 @@ import { TermsConditionsPage } from '../pages/terms-conditions/terms-conditions.
 import { LoginPage } from '../pages/login/login.component';
 import { RegisterPage } from '../pages/register/register.component';
 
-export const routes: Route[] = [
+export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomePage },
     { path: 'multiaccount', component: MultiaccountPage },

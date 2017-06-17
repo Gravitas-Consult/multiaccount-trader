@@ -1,10 +1,10 @@
 /**
  * Created by jasonk on 5/15/17.
  */
-import {Component, OnInit, NgZone} from '@angular/core';
+import { Component, OnInit, NgZone } from '@angular/core';
 //import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Accounts } from 'meteor/accounts-base';
+//import { Accounts } from 'meteor/accounts-base';
 
 import template from "./register.html";
 
