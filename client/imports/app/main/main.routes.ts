@@ -4,6 +4,8 @@
 import { Routes } from '@angular/router';
 
 import { HomePage } from '../pages/home/home.component';
+import { HowItWorksPage } from '../pages/how-it-works/how-it-works.component';
+import { TryItPage } from '../pages/try-it/try-it.component';
 import { MultiaccountPage } from '../pages/multiaccount/multiaccount.component';
 import { BrokerLatencyPage } from '../pages/broker-latency/broker-latency.component';
 import { AboutUsPage } from '../pages/about-us/about-us.component';
@@ -20,10 +22,12 @@ import { RegisterPage } from '../pages/register/register.component';
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomePage },
-    { path: 'multiaccount', component: MultiaccountPage },
+    { path: 'how-it-works', component: HowItWorksPage },
+    { path: 'pricing', component: MultiaccountPage },
     { path: 'latency', component: BrokerLatencyPage },
     { path: 'about-us', component: AboutUsPage },
-    { path: 'promos', component: FreeVPSPage },
+    { path: 'freemat', component: FreeVPSPage },
+    { path: 'try-it', component: TryItPage },
     // More pages
     { path: 'contact', component: ContactPage },
     { path: 'faq', component: FAQPage },
