@@ -115,6 +115,12 @@ a:focus.btn-custom {
   padding-left: 0px !important;
 }
 
+.phones {
+  display: block;
+  position: relative;
+  left: 25px;
+}
+
 .semi-footer {
   margin-right: -15px !important;
   margin-left: -15px !important;
@@ -182,4 +188,12 @@ table tbody tr:nth-child(even) {
   background: -o-linear-gradient(#cd7f32, #d7995b); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#cd7f32, #d7995b); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#cd7f32, #d7995b);
+}
+
+#partners-package {
+  background: #83aace; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#83aace, #bbd1e4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#83aace, #bbd1e4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#83aace, #bbd1e4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#83aace, #bbd1e4);
 }
